@@ -1,5 +1,5 @@
 ---
-const pageTitle = "Tarans site";
+const pageTitle = "blog";
 import '../styles/global.css';
 
 import Navigation from '../components/navigation.astro';
@@ -16,10 +16,13 @@ import Navigation from '../components/navigation.astro';
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-	    <Navigation />
+        <Navigation />
 
+		<h1>about Taran Site</h1>
+		<p>this is a site that belongs to taran</p>
 
-		<h1>Taran Site</h1>
-		<p>taran site</p>
+        <ul>
+            <li><a href="/posts/post-1/">Post 1</a></li>
+        </ul>
 	</body>
 </html>

@@ -4,6 +4,5 @@ title: 'Tarans blog'
 heading: 'Tarans random rambles and stories'
 ---
 
-
-hello
+blog
 

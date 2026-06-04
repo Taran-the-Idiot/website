@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Fold-board",
+    "description": "A folding keyboard with an innovative design",
+    "github": "https://github.com/Taran-the-Idiot/Fold-board",
+    "image": "https://images.unsplash.com/photo-1587829212624-fd3afb4aae53?w=400&h=300&fit=crop",
+    "inProgress": false
+  },
+  {
+    "title": "Taranium-RP2040",
+    "description": "A custom RP2040 devboard built horizontally instead of vertically",
+    "github": "https://github.com/Taran-the-Idiot/Taranium-RP2040",
+    "image": "https://images.unsplash.com/photo-1598080706868-e9e64efc0681?w=400&h=300&fit=crop",
+    "inProgress": false
+  },
+  {
+    "title": "Square Game",
+    "description": "A game where you need to kill all the squares! Made in pygame",
+    "github": "https://github.com/Taran-the-Idiot",
+    "image": "https://images.unsplash.com/photo-1535869290999-3b1d7214c0c5?w=400&h=300&fit=crop",
+    "inProgress": false
+  },
+  {
+    "title": "Carpet Macropad",
+    "description": "A macropad that drives!",
+    "github": "https://github.com/Taran-the-Idiot/carpet",
+    "image": "https://images.unsplash.com/photo-1584346604155-b1b5a8ad87ee?w=400&h=300&fit=crop",
+    "inProgress": true
+  },
+  {
+    "title": "Taranium-Gloves",
+    "description": "My own power gloves like the ones used by Robotnik in the Sonic the Hedgehog movie",
+    "github": "https://github.com/Taran-the-Idiot/Taranium-Gloves",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+    "inProgress": true
+  }
+]

@@ -9,26 +9,38 @@ Hihi! My name is Taran, I'm 17 years old and I like making fun wacky projects. Y
 
 ### Some things I have worked on the past:
 
-- <a href="https://github.com/Taran-the-Idiot/Fold-board" target="_blank">A folding keyboard!</a>
-- <a href="https://github.com/Taran-the-Idiot/Taranium-RP2040" target="_blank">A custom RP2040 devboard that is built horizontally instead of vertically</a>
-- <a href="https://square.taranium.dev" target="_blank">A game where you need to kill all the squares! Made in pygame</a>
+<ul>
+    <li> <a href="https://github.com/Taran-the-Idiot/Fold-board" target="_blank">A folding keyboard!</a></li>
+    <li> <a href="https://github.com/Taran-the-Idiot/Taranium-RP2040" target="_blank">A custom RP2040 devboard that is built horizontally instead of vertically</a></li>
+    <li> <a href="https://square.taranium.dev" target="_blank">A game where you need to kill all the squares! Made in pygame</a></li>
+</ul>
+
 
 ### Some things I am currently working on:
 
-- <a href="https://github.com/Taran-the-Idiot/carpet" target="_blank">A macropad that drives!</a>
-- <a href="https://github.com/Taran-the-Idiot/Taranium-Gloves" target="_blank">My own power gloves like the ones used by Robotnik in the Sonic the Hedgehog movie</a>
+
+
+<ul>
+    <li> <a href="https://github.com/Taran-the-Idiot/carpet" target="_blank">A macropad that drives!</a> </li> </li>
+    <li> <a href="https://github.com/Taran-the-Idiot/Taranium-Gloves" target="_blank">My own power gloves like the ones used by Robotnik in the Sonic the Hedgehog movie</a> </li>
+</ul>
+
 
 ### Events I shall be attending soon
 
-- <a href="crux.hackclub.com" target="_blank">I am organising Horizons Crux! It is going to be peak</a>
-- <a href="opensauce.com" target="_blank">I am going to be at Open Sauce and will also have my own table there.</a>
+
+<ul>
+    <li> <a href="crux.hackclub.com" target="_blank">I am organising Horizons Crux! It is going to be peak</a>
+    <li> <a href="opensauce.com" target="_blank">I am going to be at Open Sauce and will also have my own booth there.</a> </li>
+</ul>
 
 
 ### Stuff I wanna do
 
-- Make content on instagram - Could be fun to document my projects and and fun content.
-- Fix my printer - My Bambu A1 killed itself last year and it still prints like dog doodoo
-
+<ul>
+    <li> Make content on instagram - Could be fun to document my projects and and fun content. </li>
+    <li> Fix my printer - My Bambu A1 killed itself last year and it still prints like dog doodoo </li>
+</ul>
 
 
 

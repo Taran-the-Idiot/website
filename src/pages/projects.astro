@@ -1,0 +1,95 @@
+---
+import '../styles/projects.css';
+import '../styles/nav.css';
+import '../styles/global.css';
+import Layout from '../layouts/base.astro';
+import projects from '../projects.json';
+
+const frontmatter = {
+  title: 'My Projects',
+  heading: 'Some of my projects I have made over the years!'
+};
+
+// Sort projects: in-progress first, then by title
+const sortedProjects = projects.sort((a: any, b: any) => {
+  if (a.inProgress === b.inProgress) {
+    return a.title.localeCompare(b.title);
+  }
+  return a.inProgress ? -1 : 1;
+});
+---
+
+<Layout frontmatter={frontmatter}>
+  <main>
+    <div class="project-list">
+      {sortedProjects.map((project: any) => (
+        <a href={project.github} target="_blank" rel="noopener noreferrer" class="project-card">
+          <img src={project.image} alt={project.title} class="project-image" />
+          <div class="project-content">
+            <div class="project-header">
+              <h2>{project.title}</h2>
+              {project.inProgress && <span class="in-progress-badge">In Progress</span>}
+            </div>
+            <p class="project-description">{project.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</Layout>
+
+<style>
+.project-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.in-progress-badge {
+  background: #ff6b6b;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.project-description {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+</style>

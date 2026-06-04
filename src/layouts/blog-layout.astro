@@ -1,6 +1,7 @@
 ---
-import Nav from '../components/nav.astro';
+
 import '../styles/global.css';
+import '../styles/nav.css';
 const { frontmatter } = Astro.props;
 
 ---
@@ -16,7 +17,11 @@ const { frontmatter } = Astro.props;
     <title>{frontmatter.title}</title>
   </head>
   <body>
-    <Nav />
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="/blog" class="nav-brand">&larr;Back</a>
+      </div>
+    </nav>
     <main>
       <h1>{frontmatter.heading}</h1>
       <slot />

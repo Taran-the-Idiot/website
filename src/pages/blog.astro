@@ -1,0 +1,45 @@
+---
+import '../styles/blog.css';
+import '../styles/nav.css';
+import '../styles/global.css';
+import Layout from '../layouts/base.astro';
+
+const frontmatter = {
+  title: 'Tarans blog',
+  heading: 'Tarans random rambles and stories'
+};
+
+// Get all blog posts
+const posts = import.meta.glob<any>('./blog/*.md', { eager: true });
+
+const allPosts = Object.entries(posts)
+  .map(([path, module]: [string, any]) => ({
+    url: path.replace('.md', '').replace('./blog/', '/blog/'),
+    frontmatter: module.frontmatter
+  }))
+  .sort((a: any, b: any) => new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime());
+
+const formatDate = (date: string) => {
+  return new Date(date).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+};
+---
+
+  <Layout frontmatter={frontmatter}>
+    <main>
+      <div class="blog-list">
+        {allPosts.map((post: any) => (
+          <a href={post.url} class="blog-card">
+            <h2>{post.frontmatter.title}</h2>
+            <p class="blog-date">{formatDate(post.frontmatter.pubDate)}</p>
+            <p class="blog-description">{post.frontmatter.description}</p>
+          </a>
+        ))}
+      </div>
+    </main>
+  </Layout>
+
+

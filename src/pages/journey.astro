@@ -1,0 +1,31 @@
+---
+import '../styles/journey.css';
+import '../styles/nav.css';
+import '../styles/global.css';
+import Layout from '../layouts/base.astro';
+
+const frontmatter = {
+  title: 'Tarans journey',
+  heading: 'A record of everything I have done up til now'
+};
+---
+
+
+<Layout frontmatter={frontmatter}>
+  <main>
+    <div class="journey-list">
+      <div class="journey-card">
+        <h2>June 2024</h2>
+        <p class="journey-description">A summary of what I have done in June 2024</p>
+      </div>
+      <div class="journey-card">
+        <h2>June 2024</h2>
+        <p class="journey-description">A summary of what I have done in June 2024</p>
+      </div>
+      <div class="journey-card">
+        <h2>June 2024</h2>
+        <p class="journey-description">A summary of what I have done in June 2024</p>
+      </div>
+    </div>
+  </main>
+</Layout>

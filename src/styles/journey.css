@@ -41,3 +41,17 @@
   line-height: 1.6;
   flex-grow: 1;
 }
+
+@media (max-width: 600px) {
+
+.journey-list {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+gap: 1.5rem;
+margin: 2rem 0;
+}
+
+.journey-card {
+flex-direction: column;
+}
+}

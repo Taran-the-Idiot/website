@@ -1,6 +1,7 @@
 .journey-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-auto-rows: 1fr;
   gap: 1.5rem;
   margin: 2rem 0;
 }
@@ -16,6 +17,15 @@
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
+  align-items: center;
+  min-height: 150px;
+}
+
+.journey-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
 }
 
 .journey-card:hover {
@@ -27,6 +37,8 @@
   margin: 0;
   font-size: 1.5rem;
   color: #000000;
+  flex: 0 0 30%;
+  min-width: 0;
 }
 
 .journey-date {
@@ -42,7 +54,7 @@
   flex-grow: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
 .journey-list {
 display: grid;

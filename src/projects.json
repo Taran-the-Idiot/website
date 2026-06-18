@@ -33,5 +33,12 @@
     "github": "https://github.com/Taran-the-Idiot/Taranium-Gloves",
     "image": "",
     "inProgress": true
+  },
+  {
+    "title": "Flippy",
+    "description": "A custom made, open-source Flip Dot display matrix ",
+    "github": "https://github.com/Taran-the-Idiot/Flippy",
+    "image": "",
+    "inProgress": true
   }
 ]

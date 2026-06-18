@@ -61,7 +61,7 @@ Hihi! My name is Taran, I'm 17 years old and I like making fun wacky projects th
 ### Current favourite music
  
 <ul>
-    <li> <a href="https://music.youtube.com/watch?v=B-6UDdMLodE" target="_blank"></a>Blue Moon by 9Lana</li> 
+    <li> <a href="https://music.youtube.com/watch?v=B-6UDdMLodE" target="_blank">Blue Moon by 9Lana</a></li> 
     <li> <a href="https://music.youtube.com/watch?v=w7GgAvVy6-M" target="_blank">Odd Number by Yoshino</a> </li>
     <li> <a href="https://music.youtube.com/watch?v=OSaVOYDg_fA" target="_blank">Sleepwalk by Natori</a> </li>
 </ul>

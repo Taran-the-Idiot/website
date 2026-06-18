@@ -1,12 +1,11 @@
 ---
 layout: ../../layouts/blog-layout.astro
-title: 'Teaching'
+title: 'potato'
 pubDate: 2026-06-18
-description: 'My experiences teaching robotics and debating'
+description: 'description'
 ---
 
-# My experiences teaching
+potato
 
 
-Okay before we start, gotta just say that I have like 0 photos on this cuz the stinky phone ban in Australia
 

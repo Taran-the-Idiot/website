@@ -16,8 +16,19 @@
 
 .nav-brand {
   font-weight: bold;
+  text-align: center;
   text-decoration: none;
   color: #000000;
+}
+
+.nav-brand-real {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.nav-logo {
+  height: 3rem;
+  width: auto;
 }
 
 .nav-links {
@@ -32,4 +43,5 @@
 
 .nav-links a:hover {
   color: #8b6f64;
+  background-color: #fc50000f;
 }

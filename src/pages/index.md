@@ -68,3 +68,6 @@ Hihi! My name is Taran, I'm 17 years old and I like making fun wacky projects th
 
 
 
+
+ANYWAYS you can email me at <a href="mailto:me@taranium.dev" target="_blank">me@taranium.dev</a>, or follow <a href="https:github.com/Taran-the-Idiot" target="_blank">my github</a>
+

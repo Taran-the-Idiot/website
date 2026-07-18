@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/base.astro';
+
+const frontmatter = {
+	title: 'Page not found',
+	heading: '404 - Page not found'
+};
+---
+
+<Layout frontmatter={frontmatter}>
+	<main>
+			<p>That page does not exist.</p>
+			<p>
+				Try heading back to the <a href="/">home page</a>, or check out one of the other pages below.
+			</p>
+
+			<ul>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/journey">Journey</a></li>
+				<li><a href="/blog">Blog</a></li>
+			</ul>
+	</main>
+</Layout>
+

@@ -28,16 +28,17 @@ Hihi! My name is Taran, I'm 17 years old and I like making fun wacky projects th
 
 ### Events i have recently attended
 
-<p>nowhere. been a bum sitting at home</p>
+<ul>
+    <li> <a href="https://crux.hackclub.com" target="_blank">I am organising Horizons Crux! It was very peak</a></li>
+    <li>I am competed at the Road Runner FTC Scrimmage on the 20th of June! It was quite fun messing around with defence bot of doom and despair</li>
+</ul>
 
 
 ### Events I shall be attending soon
 
 
 <ul>
-    <li> <a href="https://crux.hackclub.com" target="_blank">I am organising Horizons Crux! It is going to be peak</a></li>
-    <li> <a href="https://opensauce.com" target="_blank">I am going to be at Open Sauce and will also have my own booth there.</a> </li>
-    <li>I am competing at the Road Runner FTC Scrimmage on the 20th of June!</li>
+    <li>Currently stuck at home slaving away to the hsc.</li>
 </ul>
 
 

@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/blog-layout.astro
-title: 'potato'
+title: 'blog'
 pubDate: 2026-06-18
 description: 'description'
 ---

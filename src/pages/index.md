@@ -46,14 +46,13 @@ Hihi! My name is Taran, I'm 17 years old and I like making fun wacky projects th
 
 <ul>
     <li> Make content on instagram - Could be fun to document my projects and and fun content. </li>
-    <li> Fix my printer - My Bambu A1 killed itself last year and it still prints like dog doodoo </li>
 </ul>
 
 ### Curent Reads
  
 <ul>
-    <li> <a href="" target="_blank">Petals of Reincarnation</a></li> 
-    <li> <a href="" target="_blank">Omniscent Readers Viewpoint</a> </li>
+    <li> <a href="" target="_blank">Re:Zero</a></li> 
+    <li> <a href="" target="_blank">Mushoku Tensei</a> </li>
     <li> <a href="" target="_blank">Witch Hat Atelier</a> </li>
 </ul>
 

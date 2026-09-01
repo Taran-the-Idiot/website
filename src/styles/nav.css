@@ -14,9 +14,15 @@
   align-items: center;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .nav-brand {
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   color: #000000;
 }
